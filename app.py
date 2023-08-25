@@ -2,7 +2,7 @@ import pywhatkit
 import streamlit as st
 
 
-st.set_page_config(page_title="گوگل قشمی" ,)
+st.set_page_config(page_title="گوگل قشمی" ,page_icon="g.png")
 
 with open('c.css') as f:
     st.markdown(f"<style> {f.read()} </style>",unsafe_allow_html=True)
