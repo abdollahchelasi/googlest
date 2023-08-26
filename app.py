@@ -1,4 +1,4 @@
-# import pywhatkit
+import pywhatkit
 import streamlit as st
 
 
@@ -11,9 +11,9 @@ st.image("g.png",width=200)
 ser = st.text_input("گوگل قشمی")
 
 
-# if st.button("جستجوی گوگل قشمی"):
+if st.button("جستجوی گوگل قشمی"):
     
-#     pywhatkit.search(ser)
+    pywhatkit.search(ser)
     
 st.divider()
 st.markdown("[ساخته شده توسط عبدالله چلاسی](https://abdollahchelasi.streamlit.app)")
